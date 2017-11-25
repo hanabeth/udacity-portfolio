@@ -1,0 +1,91 @@
+/***** Import text font ****/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/***** Smartphone sizes *****/
+
+/* Portrait & Landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.featured-work-label {
+	    margin-left: 12px;
+	}
+}
+
+/* Landscape */
+@media only screen and (min-width : 321px) {
+	.featured-work-label {
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.featured-work-section {
+		align-self: center;	
+		padding: 0 30px;
+	}
+
+	.featured-work-label {
+		margin-left: 25px;
+	}
+
+	.featured-work-list {
+		margin-top: 0;
+	}
+}
+
+
+/***** Desktop sizes *****/
+
+@media only screen and (max-width: 800px) {
+	.featured-work-section {
+		padding: 0;
+	}
+
+	.featured-work-label {
+		margin-left: 50px;
+	}
+
+	.featured-work-list {
+    	flex-flow: row wrap;
+    	justify-content: center;
+    	margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.featured-work-label {
+		margin-left: 80px;
+	}
+}
+
+@media only screen and (max-width: 1800px) {
+	.featured-work-section {
+		padding: 0;
+	}
+
+	.featured-work-label {
+		margin-left: 100px;
+	}
+
+	.featured-work-list {
+		margin-top: 15px;
+    	flex-flow: row wrap;
+    	justify-content: center;
+	}
+}
+
+
+/***** Static sizes *****/
+
+.featured-work-section {
+	font-family: "Raleway", sans-serif;
+}
+
+.featured-work-label {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #7d97ad;
+}
+
+.featured-work-list {
+	display: flex;
+}
