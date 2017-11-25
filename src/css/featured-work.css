@@ -7,6 +7,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	.featured-work-label {
 	    margin-left: 12px;
+	    font-size: 1.2em;
 	}
 }
 
@@ -42,6 +43,7 @@
 
 	.featured-work-label {
 		margin-left: 50px;
+		font-size: 1.5em;
 	}
 
 	.featured-work-list {
@@ -54,6 +56,7 @@
 @media only screen and (max-width: 1200px) {
 	.featured-work-label {
 		margin-left: 80px;
+		font-size: 1.5em;
 	}
 }
 
@@ -63,7 +66,8 @@
 	}
 
 	.featured-work-label {
-		margin-left: 100px;
+		margin-left: 110px;
+		font-size: 1.7em;
 	}
 
 	.featured-work-list {
@@ -81,11 +85,11 @@
 }
 
 .featured-work-label {
-    font-size: 1.5em;
     letter-spacing: 1px;
     color: #7d97ad;
 }
 
 .featured-work-list {
 	display: flex;
+	margin-top: 0;
 }

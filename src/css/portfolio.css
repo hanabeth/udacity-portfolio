@@ -37,9 +37,10 @@
 .porfolio-wrapper {
   display: inline-flex;
   flex-flow: column wrap;
+  width: 90%;
 }
 
 .section-border {
-  width: 100%;
+  width: 90%;
 	border-bottom: 2px #7d97ad solid;
 }

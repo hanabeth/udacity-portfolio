@@ -42,8 +42,7 @@
 
 @media only screen and (max-width: 1200px) {
     .featured-card {
-		padding-right: 25px;
-		padding-top: 25px;
+    	width: 300px;
    	}
 
    	.featured-card-image {
@@ -63,7 +62,20 @@
 
 @media only screen and (max-width: 1800px) {
     .featured-card {
-		padding: 25px;
+    	width: 300px;
+   	}
+
+   	.featured-card-image {
+   		width: 300px;
+   		height: 300px;
+   	}
+
+   	.featured-card-title {
+   		letter-spacing: .8px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    font-size: 1.4em;
+	    padding: 6px;
    	}
 }
 
@@ -71,12 +83,12 @@
 /***** Static sizes *****/
 
 .featured-card {
-	width: auto;
 	align-items: center;
 	text-align: center;
 	color: #2d3c49;
 	display: flex;
 	flex-flow: column wrap;
+	padding: 12px 20px;
 }
 
 .featured-card-image {
