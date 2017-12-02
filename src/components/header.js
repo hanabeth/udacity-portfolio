@@ -5,12 +5,13 @@ import '../css/header.css';
 const Header = ({name, position}) => {
 	return (
 		<header className="header-wrapper">
+			<img id="header-logo" src="https://i.imgur.com/r4bLxLW.png" alt="logo" />
 			<h1 className="name-header">
 				{name}
 			</h1>
-			<h3 className="position-header">
+			<p id="professional-position">
 				{position}
-			</h3>
+			</p>
 		</header>
 	);
 };

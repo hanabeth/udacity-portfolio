@@ -1,46 +1,35 @@
-/***** Smartphone sizes *****/
-
-/* Portrait & Landscape */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .porfolio-wrapper {
-    width: 100%;
-    margin: 0;
-  }
-
-  .main-image-wrapper {
-    padding: 25px;
-    width: 75%;
-  }
-
-  .main-image {
-    height: 300px;
-    width: 300px;
-  }
-}
-
-/* Landscape */
-@media only screen and (min-width : 321px) {
-  .porfolio-wrapper {
-    align-items: center;
-    width: 100%;
-    margin: 0;
-  }
-
-  .main-image-wrapper {
-    padding: 25px;
-  }
-}
-
 
 /***** Static sizes *****/
 
+body {
+  margin: 0;
+}
+
 .porfolio-wrapper {
   display: inline-flex;
-  flex-flow: column wrap;
-  width: 90%;
+  flex-direction: column;
 }
 
 .section-border {
-  width: 90%;
-	border-bottom: 2px #7d97ad solid;
+  margin: 10px 0;
+  display: flex;
+  border-bottom: 2px #7d97ad solid;
+}
+
+#personal-image {
+  align-self: center;
+  width: 80%;
+}
+
+/***** Styling overrides *****/
+@media only screen and (min-width: 600px) {
+  #personal-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #personal-image {
+    width: 30%;
+  }
 }

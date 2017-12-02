@@ -1,0 +1,35 @@
+
+/***** Static sizes *****/
+
+#portfolio-footer {
+	background-color: #7d97ad;
+	opacity: 0.8;
+	padding: 15px 0 4px 0;
+	text-align: center;
+}
+
+#portfolio-footer:hover {
+	background-color: #b1c0ce;
+}
+
+#contact-nav-footer {
+	display: flex;
+	justify-content: center;
+}
+
+#contact-nav-footer > a {
+	padding: 0 5px;
+	color: black;
+}
+
+#portfolio-footer > #contact-nav-footer > a:hover {
+	color: #2d3c49;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#footer-copyright {
+	font-style: italic;
+	font-size: 0.8em;
+}

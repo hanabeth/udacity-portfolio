@@ -1,95 +1,25 @@
 /***** Import text font ****/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/***** Smartphone sizes *****/
-
-/* Portrait & Landscape */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.featured-work-label {
-	    margin-left: 12px;
-	    font-size: 1.2em;
-	}
-}
-
-/* Landscape */
-@media only screen and (min-width : 321px) {
-	.featured-work-label {
-		margin-left: auto;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.featured-work-section {
-		align-self: center;	
-		padding: 0 30px;
-	}
-
-	.featured-work-label {
-		margin-left: 25px;
-	}
-
-	.featured-work-list {
-		margin-top: 0;
-	}
-}
-
-
-/***** Desktop sizes *****/
-
-@media only screen and (max-width: 800px) {
-	.featured-work-section {
-		padding: 0;
-	}
-
-	.featured-work-label {
-		margin-left: 50px;
-		font-size: 1.5em;
-	}
-
-	.featured-work-list {
-    	flex-flow: row wrap;
-    	justify-content: center;
-    	margin-top: 0;
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-	.featured-work-label {
-		margin-left: 80px;
-		font-size: 1.5em;
-	}
-}
-
-@media only screen and (max-width: 1800px) {
-	.featured-work-section {
-		padding: 0;
-	}
-
-	.featured-work-label {
-		margin-left: 110px;
-		font-size: 1.7em;
-	}
-
-	.featured-work-list {
-		margin-top: 15px;
-    	flex-flow: row wrap;
-    	justify-content: center;
-	}
-}
-
-
 /***** Static sizes *****/
 
 .featured-work-section {
 	font-family: "Raleway", sans-serif;
+	text-align: center;
 }
 
 .featured-work-label {
-    letter-spacing: 1px;
-    color: #7d97ad;
+	padding-top: 30px;
+	opacity: .9;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    color: #819bb1;
 }
 
 .featured-work-list {
-	display: flex;
 	margin-top: 0;
+	margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }

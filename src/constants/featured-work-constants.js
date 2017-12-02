@@ -1,3 +1,5 @@
+//TODO: add additional urls when available
+
 export const FeaturedWorkList = [
 	{
 		image: "https://cdn.stocksnap.io/img-thumbs/960w/XXIVQI1Z6Q.jpg",
@@ -12,7 +14,7 @@ export const FeaturedWorkList = [
 	{
 		image: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?dpr=2&auto=format&fit=crop&w=767&h=511&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
 		title: "Portfolio",
-		url: "#"
+		url: "https://github.com/hanabeth/udacity-portfolio"
 	},
 	{
 		image: "https://images.unsplash.com/photo-1466386460451-cbc548bf581b?dpr=2&auto=format&fit=crop&w=767&h=511&q=60&cs=tinysrgb&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",

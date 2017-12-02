@@ -17,12 +17,12 @@ const FeaturedWork = () => {
 	}
 
 	return (
-		<section className="featured-work-section">
-			<label className="featured-work-label">Featured Work</label>
-			<div className="featured-work-list">
-				{renderCardList()}	
-			</div>
-		</section>
+		<article className="featured-work-section">
+			<h3 className="featured-work-label">Featured Work</h3>
+			<section className="featured-work-list">
+				{renderCardList()}
+			</section>
+		</article>
 	);
 
 };

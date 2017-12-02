@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './components/header';
 import FeaturedWork from './components/featured-work';
+import Footer from './components/footer';
 import './css/portfolio.css';
 
 class Portfolio extends Component {
@@ -12,17 +13,14 @@ class Portfolio extends Component {
 					position="Software Developer"
 				/>
 				<span className="section-border" />
-					<section className="main-image-wrapper">
-						<img src="https://avatars3.githubusercontent.com/u/8824449?s=460&v=4"
-						className="main-image" 
-						alt=""
-						/>
-					</section>
-					<section className="featured-work-wrapper">
-						<FeaturedWork>
-							
-						</FeaturedWork>
-					</section>
+				<img src="https://avatars3.githubusercontent.com/u/8824449?s=460&v=4"
+						id="personal-image"
+						alt="Hana Johnson"
+				/>
+				<section className="featured-work-wrapper">
+					<FeaturedWork />
+				</section>
+				<Footer />
 			</div>
 		);
 	}
