@@ -8,6 +8,8 @@ This project creates a personal portfolio site. React was used to make the code 
 
 [Images](https://unsplash.com)
 
+[Icons](http://fontawesome.io)
+
 # Files:
 The only images/elements specific to me can be changed in the following files:
 * portfolio.js - name, position, and personal photo. Aside from that, this is the main file that renders the page and calls component featured-work.js
@@ -51,4 +53,5 @@ localhost:3000/
 ## License
 
 This program is based off of a project from [Udacity's Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
-The React boilerplate I used to create this project - [React Boilerplate](https://github.com/facebookincubator/create-react-app)
+The React boilerplate I used to create this project - [React Boilerplate](https://github.com/facebookincubator/create-react-app).
+Icons used on site are from [Font Awesome](http://fontawesome.io).
