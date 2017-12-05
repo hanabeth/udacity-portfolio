@@ -8,6 +8,7 @@ const FeaturedWork = () => {
 		return FeaturedWorkList.map((card) => {
 			return (
 				<FeaturedCard
+					key={card.title}
 					image={card.image}
 					title={card.title}
 					url={card.url}

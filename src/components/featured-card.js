@@ -6,7 +6,7 @@ const FeaturedCard = ({image, title, url}) => {
 
 	return(
 		<article className="featured-card">
-			<a href={url} class="project-card-clickable" >
+			<a href={url} className="project-card-clickable" >
 				<img src={image} className="featured-card-image" alt="project card" />
 				<h4 className="featured-card-title">
 					{title}
